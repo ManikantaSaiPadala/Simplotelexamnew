@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.body {
+    margin: 0px;
+}
+
+.head-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    background-color: #fa8072;
+}
+
+.list-cont {
+    list-style-type: none;
+    display: flex;
+}
+
+.list-items {
+    margin: 12px;
+    font-size: 35px;
+    color: #000000;
+    font-weight: bold;
+}
+
+div {
+    margin: 5px;
+    padding: 10px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.img {
+    width: 70px;
+    height: 60px;
+    margin-top: 0px;
+}
+
+.body-cont {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right, #aedd50, #ffd966, #ffe599, #cdd2b4);
+    background-size: cover;
+    padding: 0px;
+}
+
+.img-1 {
+    width: 40vw;
+    height: 60vh;
+}
+
+.body-text-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 5px;
+    padding: 15px;
+}
+
+.butn {
+    background-color: #fa8072;
+    width: 150px;
+    height: 40px;
+    color: white;
+}
+
+.foot-cont {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right, #aedd50, #ffd966, #ffe599, #cdd2b4);
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+.img-2 {
+    width: 23vw;
+    height: 300px;
+    margin-bottom: 5px;
+}
+
+.img-3 {
+    width: 300px;
+    height: 94%;
+    margin-top: 17px;
+}
+
+.foot-text-cont {
+    background-color: #fa8072;
+    max-width: 100%;
+    height: 40%;
+    align-self: center;
+}
+
+.img-cont {
+    display: flex;
+    margin: 0px;
+}
+
+.two-imgs {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-click {
+    width: 40px;
+    margin-left: 3px;
+}
+
+.click-cont {
+    display: flex;
+}
+
+@media (max-width:576px) {
+    .img-1 {
+        width: 35vw;
+        height: 25vh;
+        margin-top: 18px;
+    }
+
+    .img-2 {
+        width: 20vw;
+        height: auto;
+        margin: 2px;
+    }
+
+    .img-3 {
+        width: 20vw;
+        height: 88%;
+    }
+
+    .foot-text-cont {
+        background-color: #fa8072;
+        overflow-y: auto;
+        align-self: center;
+        margin-top: 25px;
+    }
+
+    .para {
+        font-size: 10px;
+    }
+
+    .head {
+        font-size: 15px;
+    }
+
+    .img-click {
+        width: 15px;
+    }
+
+    .list-items {
+        margin: 2px;
+        font-size: 7px;
+        color: #000000;
+        font-weight: bold;
+    }
+
+    .img {
+        margin-top: -6px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .list-cont {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .body-text-cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 5px;
+        padding: 15px;
+        max-width: 45%;
+        overflow: auto;
+    }
+
+    .butn {
+        background-color: #fa8072;
+        width: 80px;
+        height: 40px;
+        color: white;
+    }
+}
+
+@media (min-width:577px) and (max-width: 768px) {
+    .img-2 {
+        width: 20vw;
+        height: auto;
+        margin: 2px;
+    }
+
+    .img-3 {
+        margin-top: 15px;
+        width: 20vw;
+        height: 47.5vh;
+    }
+
+    .list-items {
+        margin: 12px;
+        font-size: 16px;
+        color: #000000;
+        font-weight: bold;
+    }
+}
+
+@media (min-width:769px) and (max-width: 992px) {
+    .img-2 {
+        width: 20vw;
+        height: auto;
+        margin: 2px;
+    }
+
+    .img-3 {
+        margin-top: 14px;
+        width: 25vw;
+        height: 95%;
+    }
+
+    .list-items {
+        margin: 12px;
+        color: #000000;
+        font-weight: bold;
+        font-size: 25px;
+    }
+}
